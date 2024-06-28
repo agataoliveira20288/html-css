@@ -1,0 +1,64 @@
+@import "UTF-8";
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(to top, #1A5C38,#38CA79);
+    box-shadow: 1px 1px 20px 0px;
+    padding: 70px;
+    margin: 0x;
+}
+
+nav {
+    margin: 10px;
+    outline: 10px;
+    border: 10px;
+    padding: 3px;
+    box-shadow: #b6a024;
+}
+
+nav > a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+
+#curiosidades {
+    color: white;
+    text-align: center;
+}
+
+#content1 {
+    color:white;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    box-shadow: 1px 4px 10px 1px;
+    width: 1000px;
+    height: 1500px;
+    padding: 10px;
+    margin: auto;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 2px;
+}
+
+main h2 {
+    color: #1A5C38;
+}
