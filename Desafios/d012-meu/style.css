@@ -18,17 +18,20 @@ header {
     color: white;
     background-color: black;
     text-align: center;
-    padding: 70px;
+    padding: 50px;
 }
 
 .p-main {
-    font-size: 100px;
+    font-size: 130px;
     text-shadow: color(black);
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .restante {
-    font-size: 90px;
+    font-size: 95px;
     display: inline-block;
+    font-weight: bold;
 }
 
 .p-main{
@@ -53,7 +56,7 @@ header a {
     font-weight: bold;
     text-decoration: none;
     color: white;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 header a:hover {
@@ -96,9 +99,10 @@ article {
 .conteudo {
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
+    text-shadow: 1px 1px rgb(15, 9, 9);
     font-size: 50px;
     margin: 70px 90px 70px 30px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
 }
 
 
@@ -111,7 +115,9 @@ footer {
 }
 
 footer a {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
