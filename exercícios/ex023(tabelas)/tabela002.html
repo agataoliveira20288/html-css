@@ -29,6 +29,16 @@
             color: white;
         }
 
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+            text-decoration: underline;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: white;
+            font-weight: bold;
+        }
+
         .num {
             text-align: right;
         }
@@ -38,7 +48,7 @@
             color: white;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
+            background-color: rgb(194, 87, 87);
             border: solid 3px;
             border-color: gray;
             border-bottom-style: none;
@@ -55,7 +65,7 @@
             <tr>
                 <th scope="col" class="th-position">Posição</th>
                 <th scope="col">Estado</th>
-                <th scope="col">População</th>
+                <th scope="col" style="width: 100px;">População</th>
                 <th scope="col">% da pop. total</th>
             </tr>
         </thead>
