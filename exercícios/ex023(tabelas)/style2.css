@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    font-family: arial;
+}
+
+table {
+    width: 680px;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    border-top-style: none;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+}
